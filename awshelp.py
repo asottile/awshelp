@@ -1,9 +1,11 @@
+from __future__ import annotations
+
 import sys
 
 if sys.platform == 'win32':  # pragma: win32 no cover
     import subprocess
 
-    def execvp(cmd: str, args: 'list[str]') -> int:
+    def execvp(cmd: str, args: list[str]) -> int:
         return subprocess.call(args)
 else:  # pragma: posix no cover
     from os import execvp
