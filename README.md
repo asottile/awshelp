@@ -1,4 +1,4 @@
-[![pre-commit.ci status](https://results.pre-commit.ci/badge/github/asottile/awshelp/master.svg)](https://results.pre-commit.ci/latest/github/asottile/awshelp/master)
+[![pre-commit.ci status](https://results.pre-commit.ci/badge/github/asottile/awshelp/main.svg)](https://results.pre-commit.ci/latest/github/asottile/awshelp/main)
 
 awshelp
 =======
